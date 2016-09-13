@@ -15,11 +15,16 @@ def draw_art():
 
     turt = turtle.Turtle()
     turt.shape("turtle")
-    draw_square(turt)
+    turt.speed(5)
+
+    for i in range(1, 37):
+        draw_square(turt)
+        turt.right(10)
+
     # draw a circle
-    angie = turtle.Turtle()
-    angie.color("blue")
-    angie.circle(100)
+    #angie = turtle.Turtle()
+    #angie.color("blue")
+    #angie.circle(100)
 
     window.exitonclick()
 
