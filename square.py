@@ -19,7 +19,7 @@ def draw_art():
 
     for i in range(1, 37):
         draw_square(turt)
-        turt.right(10)
+        turt.right(90)
 
     # draw a circle
     #angie = turtle.Turtle()
